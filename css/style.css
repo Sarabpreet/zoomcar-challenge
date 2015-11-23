@@ -1,0 +1,200 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.sort {
+  
+  text-align: center;
+  
+}
+
+.sort li {
+  
+  list-style: none;
+  display: inline;
+}
+.sort li a {
+  
+  background:grey;
+  padding:10px;
+  margin:0 5px;
+  color:white;
+}
+
+.collapsible-header {
+
+
+  cursor: pointer;
+  margin: 0px auto;
+}
+
+.collapsible-header .icon {
+  float:left;
+ 
+}
+.collapsible-header .price {
+
+  float:right;
+  
+  
+}
+.collapsible-header .title {
+  
+  clear: both;
+line-height: 2.6 
+}
+
+
+.elementd{
+  
+  background:white;
+  overflow: hidden;
+  clear: both;
+  cursor: text;
+}
+
+
+.product img {
+ 
+  width:40%;
+  height:40%;
+  border-radius: 20%;
+  margin:0 auto;
+  
+}
+
+
+#gmap {
+  width: 100%;
+  height:250px;
+  
+}
+.msg{
+  
+  display: none;
+}
+.eta,#gmap, .product,.location,div.col:nth-child(4){
+    margin:10px 0px;
+    background:#e1eaed;
+    padding:20px;
+}
+h5{
+  
+  background:#60b4cc;
+  position: relative;
+  top:-32px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding:10px;
+  width:112%;
+  left:-20px;
+  
+}
+.product-category,.product-color,.product-phone,.product-weigh,.product-price,.product-quantity {
+  
+  padding:5px;
+  text-align: left;
+  text-transform: capitalize;
+  
+  
+}
+.eta {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+
+.searchbar {
+  
+  width:60%;
+  margin: 60px auto;
+  
+}
+
+.logo{
+  
+  width:90px;
+  height:90px;
+  border-radius: 45px;
+  background:url('../img/logo.png') top center no-repeat;
+  background-color: white;
+  margin:-40px auto 30px;
+  cursor: pointer;
+
+  -webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+
+}
+
+
+.logo:hover {
+
+
+   background:url('../img/logo-hover.png') top center no-repeat;
+}
+
+
+.footer-copyright{
+  
+  text-transform: capitalize;
+  
+}

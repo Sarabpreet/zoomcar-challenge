@@ -1,0 +1,8 @@
+openening index.html would be enough
+if the ajax part is'nt working, please put it on a wamp server or a simple python http server
+
+
+i have uploaded the files on http://sarabpreet.in/zoomcarchallenge/ for live previewing 
+- will be pushing the code on github at http://github.com/zoomcarchallenge
+- also attaching screenshots of the ux design built, and final ui. 
+- psd is also upload in source folder
